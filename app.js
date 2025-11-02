@@ -12,7 +12,7 @@ app.use(express.static("public"));
 app.set('view engine' , 'ejs');
 
 
-mongoose.connect("mongodb+srv://guptavagisha312:Gate%402026@todolist.mta1xlt.mongodb.net/", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://.mta1xlt.mongodb.net/", {useNewUrlParser: true});
 //mongoose.connect("mongodb://127.0.0.1:27017/ItemsDB", {useNewUrlParser: true});
 
 const itemsSchema = {
